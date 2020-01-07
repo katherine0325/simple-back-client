@@ -1,0 +1,20 @@
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(https://cloud-minapp-29601.cloud.ifanrusercontent.com/1iBUtPl5J6At4aLd.svg);
+    z-index: -1;
+}
+
+.login-box {
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 32px;
+    width: 350px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
