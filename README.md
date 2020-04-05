@@ -1,14 +1,23 @@
-### 如何新增一个页面
+### 项目概述
+这是一个网页管理系统前端项目
 
-- 方法一
-src/App.js
-增加一个引入
-增加一个路由
-node script/createNewPage.js [Filename]
 
-- 方法二
-src/App.js
-增加一个引入
-增加一个路由
+### 如何启动
+```
+npm start
+```
 
-复制src/example文件夹，重命名
+### 如何部署
+```
+npm run build
+```
+后生成部署文件在build文件夹中
+
+
+### 如何新增页面
+```
+node script/create-new-page.js
+```
+tips:
+1. 新增页面基础使用的是example页面，所以不要删掉example文件夹
+2. 创建好页面文件夹之后还要到App.js增加页面路由
