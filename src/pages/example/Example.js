@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Example.css';
 import ExampleStore from './ExampleStore';
 import ExampleActions from './ExampleActions';
 
@@ -8,6 +9,7 @@ class Example extends Component {
     this.state = ExampleStore.getState();
     this.onChange = this.onChange.bind(this);
   }
+
   componentDidMount() {
     ExampleStore.listen(this.onChange);
 
